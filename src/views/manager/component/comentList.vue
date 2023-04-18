@@ -21,6 +21,7 @@
           </el-popover>
         </template>
       </el-table-column>
+      <el-table-column label="评论"></el-table-column>
       <el-table-column label="Operations">
         <template #default="scope">
           <el-button size="small" @click="handleEdit(scope.$index, scope.row)"
