@@ -49,7 +49,6 @@
 </template>
 
 <script setup>
-import { RouterView } from "vue-router";
 import { ref } from "vue";
 import axios from "axios";
 import request from "../../utils/request";
